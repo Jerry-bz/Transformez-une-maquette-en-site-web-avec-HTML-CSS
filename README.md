@@ -1,9 +1,9 @@
 # Transformez-une-maquette-en-site-web-avec-HTML-CSS
 Deuxième projet du parcours javascript-react chez OpenClassrooms. L'objectif est d'intégrer la maquette d'un site de planification de vacances nommé "Booki" (voir l'image ci-dessous).
 
-![image](https://user-images.githubusercontent.com/100424546/172008497-722d88a8-a764-4553-a50f-600518f46b8a.png)
+![](images%5Cactivites%5CMaquette%20Booki.png)
 
-Spécifications fonctionnelles:
+## Spécifications fonctionnelles:
 
 ● Les usagers pourront rechercher des hébergements dans la ville de leur choix. 
 ● Le champ de recherche est un champ de saisie. La partie recherche ne doit pas être fonctionnelle.
@@ -13,7 +13,7 @@ Spécifications fonctionnelles:
 ● Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des liens. 
 Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
 
-Spécifications techniques:
+## Spécifications techniques:
 
 ● Deux maquettes ont été réalisées : l’une desktop et l’autre mobile.
 ● Le site devra être également adapté aux formats tablette.
