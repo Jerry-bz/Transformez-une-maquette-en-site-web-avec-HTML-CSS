@@ -1,0 +1,458 @@
+/* Mise en page avec la propriété Box-sizing   */
+
+*{
+    font-family:'Raleway', sans-serif;
+    font-size:16px;
+    box-sizing: border-box;
+}
+
+.bloc_page {
+    max-width: 100%;
+}
+
+/************************************************************************************************************************/
+/*                                                        En-tête                                                       */
+/************************************************************************************************************************/
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:2%;
+}
+
+header img {
+        width: 100px;
+        height: 50px;
+}
+
+/************************************************************************************************************************/
+/*                                                        Navigation                                                    */
+/************************************************************************************************************************/
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 35px;
+    margin: -38px 0px;
+}
+
+nav ul li:hover {
+        border-top: #0065fc 3px solid;
+        cursor: pointer;
+}
+
+/************************************************ Section "barre de recherche" *****************************************/
+
+#search_bar {
+        width: 500px;
+        display: flex;
+        border: solid 1px #f2f2f2;
+        border-radius: 15px;
+}
+
+.search {
+    margin-left: 2%;
+}
+
+
+#search_icon {
+        width: 40px;
+        height: 40px;
+        background-color: #f2f2f2;
+        display: flex;
+        border-radius: 15px 0px 0px 15px;
+        justify-content: center;
+        align-items: center;
+}
+      
+#search_input {
+        width: 320px;
+        height: 40px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        background-color: transparent;
+}
+      
+#search_input:focus {
+        outline: none;
+}
+      
+#search_btn {
+        width: 140px;
+        height: 40px;
+        border-radius: 0px 15px 15px 0px;
+        border:none;
+        background-color: #0065fc;
+        color: white;
+        cursor:pointer;
+ }
+
+.btn_loupe {
+        display:none;
+}
+
+/************************************************ Section "Filtres" *****************************************/
+
+.bloc_filters {   
+        margin-top:1%;
+        margin-left: 2%;
+        display:flex;
+        align-items: center;
+}
+
+/* Barre filtre */
+
+.filters {
+    border: 2px #f2f2f2 solid;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+/* Logo de la barre de filtre */
+
+.filters i {
+    color:blue;
+    background-color:#DEEBFF;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: relative;
+    right: 8%;
+    border: none;    
+}
+
+/* Filtre bouton petite taille */
+.small {
+        width: 125px;
+}
+
+.medium {
+    width: 180px;
+}
+
+/* Filtre bouton grande taille */
+.large {
+        width: 220px;
+}
+
+.filters span {
+    padding-right: 10%;
+}  
+
+.filters:hover {
+    cursor: pointer;
+    background-color:#0065FC;
+    color: white;
+}
+
+/************************************************ Section "Résultats" *****************************************/
+
+.search_info {
+        margin-left:2%;
+        display: flex;
+        align-items: center;
+}
+
+.search_info p {
+        padding-left: 10px;
+}
+
+.search_info i {
+        color: #0065fc;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        border-radius: 25px;
+        border: solid 2px #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/************************************************************************************************************************/
+/*                                            Section Hébergements                                                      */
+/************************************************************************************************************************/
+
+#lodgings {
+        margin:2%;
+        display: flex;
+        justify-content: space-between;
+        width:auto;
+        height: auto;
+}
+
+/* Section Marseille */
+
+.section_marseille {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    width: 60vw;
+    height: auto;
+}
+
+/* Contenaire Marseille */
+
+.container_marseille {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: auto;
+}
+
+/* Images Marseille */
+
+.container_marseille img
+    {
+        height: 16vh;
+        width: 16.4vw;
+        object-fit:cover;
+        border-radius: 15px 15px 0px 0px;  
+}
+
+/* Personnalisation des cartes Marseille */
+
+.cards_marseille {
+        height: auto;
+        width:17.5vw;
+        display: flex;
+        flex-direction: column;
+        border: 8px solid white;
+        background-color:rgb(255, 255, 255);
+        box-shadow: 0px 20px 20px #f2f2f2;
+        border-radius: 25px 25px 25px 25px;
+        font-size: 13px;
+        transition: 0.3s;
+        margin:8px 0px;
+}
+
+.cards_marseille:hover {
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.575);
+        cursor: pointer;
+}
+
+.legend {
+    padding-top:1.5%;
+    padding-left:4%;
+}
+
+.space_text_marseille{
+    padding-top:1%;
+}
+
+.star_blue {
+        color:#0065fc
+}
+.star_gray {
+        color:#f2f2f2;
+}
+
+.container_marseille span {
+    font-weight: bold;
+}
+
+/* Section Hébergements Populaires */
+
+.section_popular {
+        background-color: #f2f2f2;
+        border-radius: 25px;
+        width:30vw;
+        height:auto;
+}
+
+/* Contenaire Hébergements Populaires */
+
+.container_popular {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height:auto;
+        width: auto;
+}
+
+.container_popular img {
+        height:16vh;
+        width:8vw;
+        object-fit:cover;
+        border-radius: 10px 0px 0px 10px;
+}
+
+/* Personnalisation des cartes Populaires */
+
+.cards_popular {   
+        border: 8px solid white;
+        background-color:rgb(255, 255, 255);
+        border-radius: 25px;
+        box-shadow: 1px 1px 1px #f2f2f2;
+        display: flex;
+        width: 25vw;
+        height:auto;
+        font-size: 13px;
+        transition: 0.3s;
+        margin:15px 0px;
+}
+
+.cards_popular:hover {
+        box-shadow: 15px 0px 15px 0px rgba(0, 0, 0, 0.575);
+        cursor: pointer;
+}
+
+.cards_popular span {
+    font-weight: bold;  
+}
+
+.title_popular {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.cards_popular i {
+    padding-top:15px;
+}
+
+.space_text_popular {
+    padding-top: 5%;
+}
+/************************************************************************************************************************/
+/*                                                   Section activités                                                  */
+/************************************************************************************************************************/
+
+#section_activities {
+    margin: 2%;
+    margin-top: 5%;
+    height:auto;
+}
+.activities_marseille {
+    height:auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.figure {
+    box-shadow: 0px 20px 20px #f2f2f2;
+    border-radius: 0px 0px 25px 25px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+.img_vieux_port__parc_national {
+    width: 21vw;
+    height: 48vh;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.img_pomègues {
+    width: 21vw;
+    height: 24vh;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.img_notre_dame__longchamp{
+    width:21vw;
+    height: 20vh;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.img_frioul {
+    width: 21vw;
+    height: 15vh;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.two_blocs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+.space {
+    margin:8px 0px;
+}
+
+.activities_marseille span {
+        padding: 5%;
+        font-weight: bold;
+}
+
+.activities_marseille figure:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.575);
+    cursor: pointer;
+    border-radius: 25px 25px 25px 25px;
+}
+
+/************************************************************************************************************************/
+/*                                                      Pied-de-page                                                    */
+/************************************************************************************************************************/
+
+.section_footer {
+    font-size: 14px;
+    margin-top: 3%;
+    background-color: #f2f2f2;
+    width:100%;
+    height:auto;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin-left: 3%;
+    padding-bottom: 2%;
+}
+
+.list_footer {
+    display:flex;
+    flex-direction: column;
+}
+
+.title_footer {
+    font-size: 15px;
+    position: relative;
+    top: 5%;
+}
+
+.list_item {
+    padding-bottom: 10%;
+}
+
+/* personnalisation des liens */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:#0065fc;
+}
+

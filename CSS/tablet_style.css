@@ -1,0 +1,92 @@
+.bloc_filters {
+    flex-wrap: wrap;
+}
+
+#lodgings {
+    flex-direction: column;
+}
+
+.section_marseille {
+    width:100%;
+}
+
+.container_marseille {
+    height: auto;
+}
+.cards_marseille img {
+    width:25vw;
+    height:13vh;
+}
+.cards_marseille {
+    height: auto;
+    width: auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+
+.section_popular {
+    width: auto;
+    margin-top: 5%;
+}
+
+.container_popular {
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    padding: 0 2% 3% 3%;
+}
+
+.title_popular {
+    justify-content:space-around;
+    gap: 40%;
+}
+
+.cards_popular img {
+    width: 25vw;
+    height: 13vh;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.cards_popular {
+    flex-direction: column;
+    width:auto;
+}
+
+.space_text_popular {
+    padding-top: 2%;
+}
+
+.cards_popular i {
+    padding-top: 5px;
+}
+
+.activities_marseille {
+    flex-wrap: wrap;
+    height:auto;
+}
+
+.activities_marseille img{
+    width: 28vw;
+    height: 20vh;
+
+}
+
+.two_blocs {
+    flex-direction:row;
+    height: auto;
+    width:62vw;
+}
+
+.figure {
+    height:auto;
+    width: auto;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+.container_footer {
+  
+    width:85%;
+    
+}

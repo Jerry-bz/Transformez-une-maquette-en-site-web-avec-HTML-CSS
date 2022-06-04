@@ -1,0 +1,156 @@
+/************************************************************************************************************************/
+/*                                                        En-tête                                                       */
+/************************************************************************************************************************/
+
+
+header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+/************************************************************************************************************************/
+/*                                                        Navigation                                                    */
+/************************************************************************************************************************/
+    
+/* Bordure du haut masquée */
+
+nav ul li, nav ul li:hover {
+    border-top: none;
+}
+
+.List {
+    border-bottom: #f2f2f2 3px solid;
+    padding: 20px 15px;
+    margin: 0;
+}
+
+.List:hover {
+    cursor: pointer;
+    border-bottom: #0065fc 3px solid;
+}
+
+/************************************************** Section "barre de recherche"************************************/
+
+#search_bar {
+    width:100%;
+    border: none;
+}
+
+.search {
+    align-items: center;
+}
+
+#search_input {
+    width:250px;
+}
+
+#search_btn {
+    width:50px;
+}
+
+/* Bouton recherche masqué */
+
+.btn_txt {
+    display: none;
+}
+
+/* Boutton loupe qui s'affiche */
+
+.btn_loupe {
+    display:contents;
+}
+
+/************************************************ Section "Filtres" *****************************************/
+
+.bloc_filters {
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+/************************************************************************************************************************/
+/*                                            Section Hébergements                                                      */
+/************************************************************************************************************************/
+
+#lodgings {
+    flex-direction: column-reverse;
+}
+
+/* Section des Hébergements les plus populaires */
+
+.section_popular {
+    width:auto;
+}
+
+.container_popular {
+    width:100%;
+}
+
+.cards_popular {
+    width:85vw;
+    height:auto;
+    margin-bottom: 5%;
+}
+
+.cards_popular img {
+    width:32vw;
+    height:18vh;
+}
+
+
+.cards_popular i {
+    padding-top:25px;
+}
+
+
+/* Conteneur Hébergements à Marseille */
+
+.section_marseille {
+    margin-top: 25px;
+    background-color: white;
+    width: auto;
+}
+
+.container_marseille {
+    flex-direction: column;
+}
+
+.cards_marseille {
+    width:90vw;
+    height:auto;
+}
+
+.cards_marseille img {
+    width:87vw;
+    height:18vh;
+}
+
+/************************************************************************************************************************/
+/*                                                   Section activités                                                  */
+/************************************************************************************************************************/
+
+.activities_marseille {
+   flex-direction: column;
+}
+
+.activities_marseille img {
+    height:18vh;
+    width: 90vw;
+}
+
+/************************************************************************************************************************/
+/*                                                      Pied-de-page                                                    */
+/************************************************************************************************************************/
+
+.container_footer {
+    flex-direction: column;
+    margin-top:10%;
+}
+
+.title_footer {
+    margin-bottom: 10%;
+}
+
+.list_item {
+    padding-bottom: 3%;
+}
