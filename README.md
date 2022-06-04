@@ -1,5 +1,5 @@
 # Transformez-une-maquette-en-site-web-avec-HTML-CSS
-Deuxième projet du parcours javascript-react chez OpenClassrooms. L'objectif est d'intégrer la maquette d'un site de planification de vacances nommé "Booki" (voir l'image ci-dessous).![image](https://user-images.githubusercontent.com/100424546/172008496-521de0ea-b1da-4fd7-ac9f-184e811e62c7.png)
+Deuxième projet du parcours javascript-react chez OpenClassrooms. L'objectif est d'intégrer la maquette d'un site de planification de vacances nommé "Booki" (voir l'image ci-dessous).
 
 ![image](https://user-images.githubusercontent.com/100424546/172008497-722d88a8-a764-4553-a50f-600518f46b8a.png)
 
